@@ -41,4 +41,5 @@ Rails.application.configure do
 
   #send emails using letter opener
   config.action_mailer.delivery_method = :letter_opener
+  
 end
