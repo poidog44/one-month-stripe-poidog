@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 #require specific ruby version
 ruby '2.3.1'
 
+#figaro ENV keys
+gem "figaro"
+
 #stripe gem
 gem 'stripe'
 
