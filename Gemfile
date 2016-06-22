@@ -3,6 +3,12 @@ source 'https://rubygems.org'
 #require specific ruby version
 ruby '2.3.1'
 
+#active admin
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+#add devise
+gem 'devise'
+
 #letter opener
 gem 'letter_opener', group: :development
 
