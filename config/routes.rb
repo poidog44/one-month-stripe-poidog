@@ -16,6 +16,9 @@ Rails.application.routes.draw do
   #route for showing purchases
   resources :purchases, only: [:show]
 
+  #route for products
+  resources :products, only: [:index, :show]
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
