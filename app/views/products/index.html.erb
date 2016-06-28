@@ -16,7 +16,7 @@
 		<% if pod.product_class == 'subscription' %>
 	
 		<div class="product clearfix">
-		 <a href="product-detail.html">
+		 <a href="<%= product_path(pod) %>">
 		 <div class="product-image-container">
 		 <img src="<%= asset_path pod.thumbnail_image_db_name %>" alt="<%= pod.title %>"/>
 		 <span class="product-price"><%= pod.price %></span>
